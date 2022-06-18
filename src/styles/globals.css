@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img {
+  color: blue;
+  background-image: url(../../public/images/ScottsdaleLaunchScreen960.webp);
+  background-image: 
+    -webkit-image-set(
+      url(../../public/images/ScottsdaleLaunchScreen480.webp) 1x,
+      url(../../public/images/ScottsdaleLaunchScreen720.webp) 2x,
+      url(../../public/images/ScottsdaleLaunchScreen960.webp) 2x,
+    );
+  background: image-set(
+    url(../../public/images/ScottsdaleLaunchScreen480.webp) 1x,
+    url(../../public/images/ScottsdaleLaunchScreen720.webp) 2x,
+    url(../../public/images/ScottsdaleLaunchScreen960.webp) 2x,
+  );
+}
+
+@font-face {
+  font-family: "HomepageBaukasten-Bold";
+  font-display: swap;
+  src: local("HomepageBaukasten-Bold"), url('../../public/fonts/HomepageBaukasten-Bold.ttf') format("truetype");
+}
+@font-face {
+  font-family: "HomepageBaukasten-Book";
+  font-display: swap;
+  src: local("HomepageBaukasten-Book"), url('../../public/fonts/HomepageBaukasten-Book.ttf') format("truetype");
+}

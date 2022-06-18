@@ -1,0 +1,35 @@
+  .container {
+    margin-top:10pt; 
+    height: 80vh;
+    top: 10%;
+    left: 10%;   
+    border-color: blue;
+  }
+  
+  .sigContainer {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 2px solid gray;    
+    }
+  
+  .sigPad {
+    width: 100%;
+    height: 100%;    
+   }
+  
+  .buttons {
+    width: 25%;
+    height: 30px;
+  }
+  
+  .sigImage {
+    background-size: 200px 50px;
+    margin-left: 15ex;
+    width: 100px;
+    height:50px;
+    margin-top:5ex;
+    background-color: white;
+  }
+  
